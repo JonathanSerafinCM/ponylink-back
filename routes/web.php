@@ -101,3 +101,6 @@ Route::post('/experience', [ExperienciaLaboralController::class, 'addWorkExperie
 Route::put('/experience/{id}', [ExperienciaLaboralController::class, 'updateWorkExperience'])->name('experience.update');
 Route::delete('/experience/{id}', [ExperienciaLaboralController::class, 'deleteWorkExperience'])->name('experience.delete');
 
+// Remove or comment out the inclusion of auth.php if it exists
+// require __DIR__.'/auth.php';
+

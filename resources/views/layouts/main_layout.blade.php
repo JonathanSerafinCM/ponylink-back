@@ -15,7 +15,7 @@
         <main>
             @yield('content')
         </main>
-        @yield('content')
+      
         @yield('scripts')
     {{--@else--}}
     {{--No puedes acceder a esta página.--}}
